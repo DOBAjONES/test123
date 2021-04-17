@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WE Are Trying to Use the HTML FORM</title>
+<style>
+    body {
+        background-color: violet;
+    }
+    form {
+        color: blueviolet;
+    }
+   </style>
+    </head>
+<body>
+    <form>
+        first name: <br>
+        <input type = "text" name = "firstname" maxlenght = "10"><br>
+        last name: <br>
+        <input type = "text" name = "Lastname">
+    </form>
+    <br>
+    <form>
+        <input type = "radio" name="gender" value = "Male" checked>Male<br>
+        <input type = "radio" name ="gender" value ="female">female<br>
+        <input type = "radio" name ="gender" value ="others">other
+    </form>
+    <br>
+    <form action = "action_page.asp">
+    first name: <br>
+        <input type = "text" name="firstname" value = "DOBA"><br>
+        middle name: <br>
+        <input type = "text" name="middlename" value = "JONES"><br>
+        nickname: <br>
+        <input type = "text" name="nickname" value = "ADA LOVELACE"><br><br>
+        <input type = "submit" Value = "Submit">
+    </form>
+    <br>
+    <form action = "action_page.php" method = "post">
+<fieldset> 
+    <legend>Personal Information:</legend>
+    First Name: <br>
+    <input type ="text" name ="Firstname"><br>
+    Last Name: <br>
+    <input type ="text" name = "Lastname"><br><br>
+    <input type = "submit" value = "submit">
+    <br>
+    First Name: <br>
+    <input type ="text" name ="Firstname" value = "DOBA"><br>
+    Last Name: <br>
+    <input type ="text" name = "Lastname" value = "JONES"><br><br>
+    <input type = "submit" value = "submit">
+    <br>
+    <input type ="radio" name ="gender" value = "male" checked>male<br>
+    <input type ="radio" name ="gender" value = "female">female<br>
+    <input type ="radio" name ="gender" value = "Other">Other<br><br>
+    <input type = "submit" value = "submit">
+</fieldset>
+    </form>
+
+    <form>
+        <input type ="button" value = "ok">
+    </form>
+    <form>
+        Name: <input type = "text" name = "name">
+        <input type = "submit">
+    </form>
+</body>
+<br><br>
+
+<form>
+    <fieldset>
+        <legend>FRIENDS</legend>
+    <select name = "friends">
+        <option value = "Candy">Candy</option><br>
+        <option value = "Victor">Victor</option><br>
+        <option value = "Chiwe Talagu">Chiwe Talagu</option><br>
+        <option value = "TJ">TJ</option><br>
+        <option value = "Raymond">Raymond</option><br>
+        <option value = "Seyi">Seyi</option>
+</select>
+<br><br>
+<input type = "submit" value = "submit">
+</fieldset>
+</form>
+<br>
+<br>
+<form>
+    <fieldset>
+        <legend>FRIENDS</legend>
+    <select name = "friends">
+        <option value = "Candy">Candy</option><br>
+        <option value = "Victor" selected>Victor</option><br>
+        <option value = "Chiwe Talagu">Chiwe Talagu</option><br>
+        <option value = "TJ">TJ</option><br>
+        <option value = "Raymond">Raymond</option><br>
+        <option value = "Seyi">Seyi</option>
+</select>
+<br><br>
+<input type = "submit" value = "submit">
+</fieldset>
+</form>
+<br> 
+<form>
+    <fieldset>
+        <legend>Covid 19</legend>
+    <textarea name = "message" rows = "10" cols = "30">This corona period was felt everywhere in terms of hunger. I feel am</textarea>
+<br><br>
+<input type = "submit" value = "submit">
+</fieldset>
+</form>
+<br><br>
+<form>
+    <input list = "Friends">
+    <datalist id = "Friends">
+        <option value = "Candy">
+        <option value = "Victor">
+        <option value = "Chiwe Talagu">
+        <option value = "TJ">
+        <option value = "Raymond">
+        <option value = "Seyi">
+    </datalist>
+    <br><br>
+    <input type = "submit">
+</form>
+<br>
+<form>
+    Username: <input type = "text" name = "user">
+    Encryption : <keygen name = "security">
+        <br><br>
+        <input type = "submit">   
+</form>
+<br>
+<form>
+    User name:<br>
+    <input type = "text" name = "Username">
+    <br>
+     User Password:<br>
+    <input type = "text" name = "psw">
+    <br>
+    <input type = "submit">
+</form>
+<br>
+<form>
+    <input type ="checkbos" name ="vehicle1" value = "car">I have a car<br>
+    <input type ="checkbos" name = "vehicle2" value ="bus">I have a Bus
+</form>
+<br>
+<form>
+    <input type ="checkbox" name ="vehicle1" value = "car">I have a car<br>
+    <input type ="checkbox" name = "vehicle2" value ="bus">I have a Bus
+</form>
+<br>
+<form>
+    Qunatity (number between 1 and 5) :
+    <input type = "number" name="quantity" min = "1" max = "5">
+    <input type = "submit">
+    <p><b>Note:</b>This number must be between 1 and 5</p>
+</form>
+<br>
+<form>
+    Birthday:
+    <input type = "date" name = "bday">
+</form>
+<br>
+<form>
+    Enter date before 1979:<br>
+    <input type = "date" name = "bday" max = "1978-12-31"><br>
+    Enter date after 2000:<br>
+    <input type = "date" name = "bday" min = "2000-12-31">
+</form>
+<br>
+<form>
+    select your favourite color sir:<br>
+    <input type ="color" name ="favcolor">
+</form>
+<br>
+<form>
+    pick a range sir:<br>
+    <input type = "range" name ="point" min = "0" max= "10">
+    <input type = "submit">
+</form>
+<br>
+<form>
+    Birthday (month and year):<br>
+    <input type = "month" name ="bdaymonth"><br>
+    <input type = "submit">
+    </form>
+    <br>
+<form>
+    Which week BABA MI:<br>
+    <input type = "week" name ="week_year"><br>
+    <input type = "submit">
+    </form>
+    <br>
+    <form>
+        Which time BABA MI:<br>
+        <input type = "time" name ="usr_time"><br>
+        <input type = "submit">
+        </form>
+        <br>
+    <form>
+        Which time BABA MI:<br>
+        <input type = "datetime" name ="bdaytime"><br>
+        <input type = "submit">
+        </form>
+        <br>
+        <form>
+            Which time BABA MI:<br>
+            <input type = "datetime-local" name ="bdaytime"><br>
+            <input type = "submit">
+            </form>
+            <br>
+    <form>
+        Enter Email:<br>
+        <input type = "email" name ="email"><br>
+        <input type = "submit">
+        </form>
+        <br>
+    <form>
+        Enter Telephone number to continue:<br>
+        <input type = "tel" name ="usr_tel" disabled><br>
+        <input type = "submit">
+        </form>
+        <br>
+    <form>
+        What are you looking for:<br>
+        <input type = "search" name ="googlesearch"><br>
+        <input type = "submit">
+        </form>
+        <br>
+    <form>
+        Enter Email:<br>
+        <input type = "url" name ="homepage"><br>
+        <input type = "submit">
+        </form>
+        <br>
+    <form>
+        Click:<br>
+        <input type = "button" onclick="alert('hello world')" value ="click me">
+        </form>
+        <br>
+        <form action = "action_page.php" autocomplete = "on">
+            First name: <input type = "text" name = "fname" placeholder="First name"><br>
+            second name: <input type = "text" name = "sname"placeholder="Second name"><br>
+            last name: <input type = "text" name = "sname" autocomplete = "off"><br>
+            <input type = "submit">
+        </form>
+<br>
+<form action="action_page.php" novalidate>
+    E-mail: <input type="email" name="user_email">
+    <input type="submit">
+  </form>
+  <br>
+<form action="action_page.php">
+    E-mail: <input type="email" name="user_email" autofocus>
+    First name: <input type = "text" name = "fname" required><br>
+            second name: <input type = "text" name = "sname" required><br>
+    <input type="submit">
+  </form>
+</body>
+
+</html>
